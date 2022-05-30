@@ -1,0 +1,106 @@
+
+  html, body { height: 100%; }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #75ced4;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    
+  }
+
+ .login_form    {
+     background-color: rgb(89, 129, 129);
+     padding: 3em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .login_title {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.login_button {
+  
+    text-align: center;
+  
+}
+.btn-outline-primary {
+    border-color: #0DB8DE;
+    color: #0e2024;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0DB8DE;
+    right: 0px;
+}
+
+input[type=text] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+   
+    padding-left: 0px;
+    color: #ECF0F5;
+    font-size: 15px;
+}
+
+input[type=password] {
+    font-size: 15px;
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 8px;
+    outline: 5px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+
+.form-control-label {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}

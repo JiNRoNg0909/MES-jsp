@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+}
+
+.topnav {
+  overflow: auto;
+  background-color: rgb(184, 142, 142);
+  
+}
+
+.paddingimg {
+    padding-left: 15px;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+
+.topnav a {
+ 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-items: center;
+
+}
+.topnav button {
+ 
+ 
+ align-items: center;
+ background-color: #c51f72;
+  border: none;
+  color: white;
+  text-align: center;
+
+    float: right;
+  font-size: 25px;
+margin-top: 37px;
+  cursor: pointer;
+
+}
+.topnav button:hover {
+ 
+ background-color: #f53193;
+
+}
+
+.topnav p {
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold; 
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #5aa9c9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+input[type=button]:hover {
+  background-color: #719af1;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.buttonradius{
+    border-radius: 8px;
+}
